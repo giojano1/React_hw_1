@@ -1,0 +1,38 @@
+.card {
+  display: flex;
+  align-items: center;
+  margin: 20px 10px;
+  .card_img {
+    img {
+      width: 125px;
+      height: 170px;
+      object-fit: cover;
+    }
+  }
+  .card_info {
+    margin-left: 10px;
+    .location {
+      display: flex;
+      align-items: center;
+      img {
+        width: 10px;
+        margin-right: 5px;
+      }
+      a {
+        color: gray;
+        margin-left: 5px;
+      }
+    }
+    .title {
+      margin: 15px 0px;
+      font-weight: bold;
+      font-size: 25px;
+    }
+    .desc {
+      margin: 10px 0px;
+      span {
+        font-weight: bold;
+      }
+    }
+  }
+}
